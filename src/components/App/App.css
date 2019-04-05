@@ -1,0 +1,31 @@
+.errorWrapper > p {
+  color: #cc3535;
+  font-size: 15px;
+  margin: 0.5em 0 0 5em;
+}
+
+.searchBar {
+  flex: 1;
+  position: relative;
+}
+
+.searchBarWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchButton {
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.searchCategory {
+  padding-right: 1em;
+}
+
+.searchCategory > label {
+  padding: unset;
+}
